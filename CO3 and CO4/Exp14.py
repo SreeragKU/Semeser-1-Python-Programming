@@ -1,0 +1,13 @@
+import numpy as np
+ar1 = np.array([1, 2, 3])
+print(f'NumPy Array:\n{ar1}')
+a = np.zeros((3, 4))
+print("NumPy Array of zeroes\n",a)
+tuple1 = (43, 21, 32, 67, 21, 5)
+print("Type of tuple: ", type(tuple1))
+array = np.asarray(tuple1)
+print("Type of array: ", type(array))
+rand = np.random.randint(5,10)
+print("First array\n", rand)
+rand2 = np.random.randint(10,90,(4,5))
+print("Second  array\n",rand2)
